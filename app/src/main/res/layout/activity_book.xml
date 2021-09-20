@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car2"
+    tools:context="com.example.satyaki.enactus33.BookActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Date"
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:id="@+id/text"
+            />
+
+
+        <Button
+            android:id="@+id/date"
+            style="@style/button_style"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text="Pick a date"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/dateviewer"
+            style="@style/button2_style"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/date"
+            android:layout_below="@+id/date"
+            android:layout_marginTop="30dp"
+            android:textColor="#000000"
+            />
+
+        <Button
+            android:id="@+id/time"
+            style="@style/button_style"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/dateviewer"
+            android:layout_below="@+id/dateviewer"
+            android:layout_marginTop="30dp"
+            android:text="Pick preferable time"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/timeviewer"
+            style="@style/button2_style"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/date"
+            android:layout_below="@+id/time"
+            android:layout_marginTop="30dp"
+            android:textColor="#000000"
+            />
+
+
+        <Spinner
+            android:id="@+id/car_selection"
+            style="@style/button2_style"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timeviewer"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/book"
+            style="@style/button_style"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/dateviewer"
+            android:layout_below="@+id/car_selection"
+            android:layout_marginTop="30dp"
+            android:text="BOOK NOW"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

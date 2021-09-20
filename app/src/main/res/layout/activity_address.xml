@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car2"
+    tools:context="com.example.satyaki.enactus33.AddressActivity">
+
+    <TextView
+        android:id="@+id/address_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/society_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/editText_style"
+        android:hint="Society Name or House Name"
+        android:layout_below="@+id/address_view"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+    <EditText
+        android:id="@+id/house_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/editText_style"
+        android:hint="Flat No. or House No."
+        android:layout_below="@+id/society_name"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+    <EditText
+        android:id="@+id/street_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/editText_style"
+        android:hint="Street Address"
+        android:layout_below="@+id/house_number"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+    <EditText
+        android:id="@+id/landmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/editText_style"
+        android:hint="Landmark"
+        android:layout_below="@+id/street_address"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/editText_style"
+        android:hint="Pin Code"
+        android:inputType="phone"
+        android:layout_below="@+id/landmark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+    <Spinner
+        android:id="@+id/city"
+        style="@style/editText_style"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/pincode"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+        android:id="@+id/state"
+        style="@style/editText_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:id="@+id/register"
+        style="@style/button_style"
+        android:textColor="#ffffff"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/state"
+        android:layout_marginTop="20dp"
+        android:text="REGISTER"
+        />
+
+</RelativeLayout>

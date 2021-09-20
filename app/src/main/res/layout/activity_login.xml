@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car2"
+    tools:context="com.example.satyaki.enactus33.LoginActivity">
+
+    <EditText
+        android:id="@+id/phonenumber"
+        style="@style/editText_style"
+        android:gravity="center"
+        android:inputType="phone"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="Enter Phone Number"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/editText_style"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_below="@+id/phonenumber"
+        />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/button_style"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN"
+        />
+
+    <Button
+        android:id="@+id/signup"
+        style="@style/button_style"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="20dp"
+        android:text="SIGN UP"
+        />
+
+    <Button
+        android:id="@+id/frgt"
+        style="@style/button_style"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/signup"
+        android:layout_marginTop="20dp"
+        android:text="Forgot Password ??"
+        />
+
+</RelativeLayout>

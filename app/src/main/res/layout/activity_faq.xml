@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car2"
+    tools:context="com.example.satyaki.enactus33.FAQActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/qes1"
+            android:textColor="#ffffff"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/button_style"
+            android:text="are you finished ??"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/qes2"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/button_style"
+            android:layout_below="@+id/qes1"
+            android:text="Please wait for sometime"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/qes3"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/button_style"
+            android:layout_below="@+id/qes2"
+            android:text="Cash"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/qes4"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/button_style"
+            android:layout_below="@+id/qes3"
+            android:text="I don't understand anything"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/qes5"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/button_style"
+            android:layout_below="@+id/qes4"
+            android:text="Shall I help you ??"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

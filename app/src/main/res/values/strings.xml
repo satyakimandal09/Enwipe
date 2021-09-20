@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EnWipe</string>
+
+    <string-array name="City">
+        <item>City</item>
+        <item>Bhubaneswar</item>
+    </string-array>
+
+    <string-array name="State">
+        <item>State</item>
+        <item>Orissa</item>
+    </string-array>
+
+    <string-array name="Car_Type">
+        <item>Select your Car</item>
+        <item>SEDAN    Rs-150/-</item>
+        <item>SUV    Rs-160/-</item>
+        <item>HATCH-BACK    Rs-120/-</item>
+        <item>BIKE    Rs-30-50/-</item>
+
+    </string-array>
+
+</resources>

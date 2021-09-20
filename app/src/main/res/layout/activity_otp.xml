@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car2"
+    tools:context="com.example.satyaki.enactus33.OtpActivity">
+
+    <TextView
+        android:id="@+id/first"
+        android:background="#000000"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:text="An One Time Password(OTP) is sent to your Mobile Number and your e-mail id. Please submit the OTP to verify your account."/>
+
+    <TextView
+        android:id="@+id/otp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/first"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Enter OTP"
+        />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/editText_style"
+        android:inputType="textPassword"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/otp"
+        />
+
+    <Button
+        android:id="@+id/submit1"
+        style="@style/button_style"
+        android:textColor="#FFFFFF"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="20dp"
+        android:text="SUBMIT"
+        />
+
+</RelativeLayout>

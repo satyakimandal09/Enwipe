@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242425"
+    tools:context="com.example.satyaki.enactus33.AboutUsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/enactus"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/enactus"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enactus"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="19dp"
+            android:text="NOT FOR CHARITY, BUT FOR A CHANGE
+
+An initiative by Enactus (KIIT-KISS)
+
+Is your car too grubby for a drive?
+Are you dreaded to think about taking your car to the over-expensive car wash?
+Don't want to spend your entire day at the car wash waiting for your vehicle to shine like it's just out of the showroom?
+Then this is exactly what you need!
+Take this opportunity to get car-wash services at your doorstep and at the same time be a part of a ''CHANGE''
+
+-->We only employ people with challenged speech and hearing.
+   This is a step towards giving them a better life by enabling them to break the norms of the present day
+   employment scenario and prove themselves.
+
+-->An environment-friendly approach to provide complete cleaning with comparatively less amount of water.
+
+-->Minimal expenses and special price for KIIT students.
+
+COME JOIN THE CHANGE
+
+
+"
+            />
+
+
+        <Button
+            android:id="@+id/back"
+            android:textColor="#ffffff"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            style="@style/button_style"
+            android:text="BACK"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
