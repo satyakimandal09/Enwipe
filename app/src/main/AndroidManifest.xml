@@ -25,7 +25,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".OtpActivity" />
         <activity android:name=".BookActivity" />
-        <activity android:name=".AddressActivity" />
+        <activity android:name=".AddresActivity" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".RatingActivity" />
         <activity android:name=".ConfirmPasswordActivity" />
